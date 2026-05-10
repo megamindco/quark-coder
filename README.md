@@ -23,7 +23,12 @@ quark-code claude → gemini → opencode → glm → quark-agent DASA
 npm install
 npm link        # makes `quark` available globally
 ```
+or install via npm
 
+```bash
+# From repo root
+npm i quark-coder      # makes `quark` available globally
+```
 ---
 
 ## Backends
