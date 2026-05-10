@@ -11,7 +11,7 @@ Quark wraps any frontier AI coding tool behind a single `quark` interface. If yo
 
 ```
 Fallback chain:
-bonsai → claude → gemini → opencode → glm → quark-agent
+quark-code claude → gemini → opencode → glm → quark-agent DASA
 ```
 
 ---
