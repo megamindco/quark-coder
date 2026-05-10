@@ -1,0 +1,23 @@
+{
+  "name": "@mmc/quark",
+  "version": "2.0.0",
+  "description": "Quark — MMC's unified AI coding CLI. Multi-backend with fallback and built-in agent.",
+  "bin": {
+    "quark": "./src/index.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.52.0",
+    "chalk": "^5.3.0",
+    "commander": "^12.0.0",
+    "conf": "^13.0.0",
+    "execa": "^9.0.0",
+    "figlet": "^1.7.0",
+    "inquirer": "^9.2.0",
+    "ora": "^8.0.1",
+    "readline": "^1.3.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
